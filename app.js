@@ -10,12 +10,20 @@ module.exports = {
 		return x + y + z 
 	},
 
+	guitars: ()=>{ return ['gibson','fender']},
+
 	combat: (health, damage)=> {
-    // status= health - damage
-    // if(status < 0){status = 0}
+	    // status= health - damage
+	    // if(status < 0){status = 0}
 
-    // 	return status
+	    // 	return status
 
-    return health < damage ? 0 : health - damage
-}
+	    return health < damage ? 0 : health - damage
+	},
+
+	foobar: ()=>{
+		foo = 'bar'
+		return foo
+	}
+
 }
